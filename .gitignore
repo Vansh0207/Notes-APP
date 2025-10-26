@@ -1,0 +1,18 @@
+# Rename README
+mv README.me README.md
+
+# Create .gitignore
+cat > .gitignore <<EOF
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Env files (for future)
+.env
+.env.local
+EOF
